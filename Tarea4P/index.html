@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Antonio Yahir Ruiz Rocha">
+    <title>Document</title>
+</head>
+<body>
+    <!--Etiqueta para imagen externa-->
+    <p>Esta imagen esta en la web</p>
+    <img src="https://i.pinimg.com/736x/e5/e9/ce/e5e9ce5aa1b52e21a03199695ad3fcf0.jpg" alt="solecito saludando">
+    <!--Etiqueta para imagen interna(servidor)-->
+    <!--Descripcion interta de la imagen (por si el tipo de la imagen no se logra proyectar o no es compatible)-->
+    <p>Esta imagen esta en el servidor</p>
+    <img src="imagenes/niñoestrella.jpg" alt="niño con gorrito de estrella" width="564" height="564">
+    <!--Etiqueta para video-->
+    <p>Este es un video</p>
+    <video src="media/WhatsApp Video 2025-09-17 at 3.19.10 PM.mp4" controls loop></video>
+    <!--Etiqueta para audio-->
+    <p>Este es un audio</p>
+    <audio src="media/WhatsApp Audio 2025-10-01 at 2.49.07 PM.mpeg" controls loop></audio>
+    <hr>
+    <br>
+    <!--Tablas HTML-->
+    <table>
+        <h2>Tablas HTML</h2>
+        <table border="1px">
+        <caption>Países</caption>
+       <tr>
+            <th>País</th>
+            <th>Capital</th>
+            <th>Lengua</th>
+            <th>Continente</th>
+            <th>Ciudad</th>
+       </tr>
+       <tr>
+            <td>México</td>
+            <td>Ciudad de México</td>
+            <td>Español</td>
+            <td>América</td>
+            <td>Guadalajara</td>
+       </tr>
+       <tr>
+            <td>Japón</td>
+            <td>Tokio</td>
+            <td>Japonés</td>
+            <td>Asia</td>
+            <td>Osaka</td>
+       </tr>
+       <tr>
+            <td>Irlanda</td>
+            <td>Dublín</td>
+            <td>Irlandés, Inglés</td>
+            <td>Europa</td>
+            <td>Cork</td>
+       </tr>
+    </table>
+
+    <!--Tablas con celdas fusionada-->
+    <hr>
+    <table>
+        <table border="1px">
+        <caption>Autos</caption>
+        <tr>
+            <!--rowspan Fusionar filas-->
+            <th rowspan="2">Modelo</th>
+            <!--colspan Fusionar columnas-->
+            <th colspan="2">Precio</th>
+        </tr>
+        <tr>
+            <th>Nuevo</th>
+            <th>Usado</th>
+        </tr>
+        <tr>
+            <td>Volkswagen Sedán (Bocho)</td>
+            <td>$150,000</td>
+            <td>$45,000 - $80,000</td>
+        </tr>
+        <tr>
+            <td>Mazda 3</td>
+            <td>$450,000 - $550,000</td>
+            <td>$180,000 - $300,000</td>
+        </tr>
+        <tr>
+            <td>Jeep Grand Cherokee</td>
+            <td>$900,000 - $1,200,000</td>
+            <td>$350,000 - $600,000</td>
+        </tr>
+    </table>
+    <hr>
+    <table border="1px">
+        <caption>Horario</caption>
+        <tr>
+            <th>Horas</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miercoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+        </tr>
+        <tr>
+            <td>8:00 - 9:00</td>
+            <td rowspan="2">Matemáticas</td>
+            <td>Lengua</td>
+            <td>Música</td>
+            <td></td>
+            <td rowspan="2">Matemáticas</td>
+        </tr>
+        <tr>
+            <td>9:00 - 10:00</td>
+            <td>Inglés</td>
+            <td>Inglés</td>
+            <td>E. Fisica</td>
+        </tr>
+        <tr>
+            <td>10:00 - 10:30</td>
+            <td colspan="5">Recreo</td>
+        </tr>
+        <tr>
+            <td>10:30 - 11:30</td>
+            <td>E. Fisica</td>
+            <td>Valenciano</td>
+            <td rowspan="2">Lengua</td>
+            <td>Informática</td>
+            <td>Inglés</td>
+        </tr>
+        <tr>
+            <td>11:30 - 12:30</td>
+            <td>Música</td>
+            <td>E. Fisica</td>
+            <td rowspan="2">Matemáticas</td>
+            <td>Informática</td>
+        </tr>
+        <tr>
+            <td>12:30 - 1:30</td>
+            <td></td>
+            <td>Informática</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>

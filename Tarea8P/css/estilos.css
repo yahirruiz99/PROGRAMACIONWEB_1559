@@ -1,0 +1,67 @@
+/*
+Modelos de color 
+-RGB
+-RGBA
+-HEXADECIMAL
+-HSL
+*/
+.rgb{
+    color: rgb(189, 227, 251);
+    background-color:rgb(27, 35, 98);
+}
+
+.rgba{
+    color: rgb(204, 249, 204);
+    background-color: rgba(37, 74, 40, 0.87);
+
+}
+.hex{
+    color: #fcd7f7;
+    background-color: rgb(119, 32, 105);
+}
+.hsl{
+    color: rgb(250, 253, 170);
+    background-color: rgb(70, 31, 102);
+}
+
+/*Colores multinavegador*/
+
+.lista--colores{
+    background-color: rgb(244, 170, 213);
+}
+
+.blue{
+    color:blue;
+}
+
+.pink{
+    color: rgb(244, 129, 148);
+}
+
+.orange{
+    color: orange;
+}
+
+.violet{
+    color: rgb(232, 38, 232);
+}
+
+.yellow{
+    color: yellow;
+}
+
+.border{
+    /* se pueden ahorrar las 3 lineas de color, border y px en una sola*/
+    /*border-style: solid;
+    border-color: aqua;
+    border-width: 10px;*/
+    border: 2px solid rgb(241, 77, 202);
+}
+
+.lineal{
+    background-image: linear-gradient(to bottom, rgb(151, 140, 253),rgb(234, 155, 252),rgb(240, 65, 170));
+}
+
+.radial{
+    background-image: radial-gradient(circle, rgb(250, 212, 140), rgb(160, 175, 243));
+}

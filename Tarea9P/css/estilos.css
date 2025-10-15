@@ -1,0 +1,44 @@
+#encabezado{
+    color: rgb(111, 111, 111);
+    background-color: lightpink;
+}
+
+.fondo--imagen{
+    /*background-image: permite agregar imagenes como fondos de un contenedor o elemento HTML,
+    tambien se pueden agregar gradientes.*/
+    background-image:url(../imagenes/〄\ desktop.jpg), radial-gradient(ellipse, rgba(159, 143, 251, 0.559), rgba(233, 142, 221, 0.687));
+
+    /*background-size (Cover, contain y width(px) height(px))
+    Especificar ek tamaño de la imagen de fondo. */
+    background-size: contain;
+
+    /*background-repeat(repeat, repeat-x, repeat-y, y no-repeat)
+    Aplica cuando la imagen es mas pequeña que su contenedor. */
+    background-repeat: no-repeat;
+
+    /*background-position(top, bottom, left, right y center)
+    Establece la posición inicial de la imagen en su contenedor. */
+    background-position: bottom;
+
+    /*background-attachment (scroll y fixed)
+    Esta se utiliza para que la imagen se quede fija en su contenedor cuando un usuario se desplaza
+    por la página. (fixed es para que contendor abarque todo el contenedor y se mueva junto con el usuario*/
+    background-attachment: scroll;
+
+    
+    /*Propiedades del contenedor. */
+    height: 1000px;
+    width: 500px;
+    color: rgb(105, 83, 41);
+    border: solid;
+}
+
+.fondo--imagen1{
+    /*background: (image) (position) (size) (repeat) (attachment) (color) */
+    background: url(../imagenes/descarga\ \(10\).jpg) center / contain no-repeat scroll rgb(232, 175, 228);
+
+    height: 500px;
+    width: 500px;
+    color: rgb(86, 83, 84);
+    border: 2px solid rgb(232, 175, 228);
+}

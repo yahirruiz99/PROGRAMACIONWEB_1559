@@ -1,0 +1,86 @@
+/*Selector HTML*/
+html{
+    font-size: 62.5%; /*10px*/
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom, rgb(239, 194, 202), rgb(252, 210, 217));
+    color: brown;
+}
+
+/*
+Orden para los estilos de los estados de los enlaces
+(LVFHA
+*/
+
+a:link{
+    color: darksalmon;
+}
+
+a:visited{
+    color: red;
+}
+
+a:focus{
+    color: white;
+    background-color: chocolate;
+    border: 0.1rem solid orange;
+}
+
+a:hover{
+    color: blanchedalmond;
+    background-color: rgb(255, 255, 255);
+    border: 0.2rem solid burlywood;
+}
+
+a:active{
+    color: coral; 
+    background-color: lightcoral;
+    text-decoration: none;
+}
+
+#encabezado{
+    font-size: 4rem;/*20px*/
+    border: 0.5rem solid gold;
+}
+#encabezado h1{
+    font-size: 2em;/*40px*/
+    text-align: center;
+}
+
+.enlaces{
+    border: 0.1rem solid burlywood;
+    font-size: 1.5rem;/*15px*/
+}
+
+.estados-enlaces{
+    font-size: 1em; /*30px*/
+}
+
+.estados-enlaces h2{
+    font-size: 2em;
+    text-align: center;
+    border: 0.2em dashed papayawhip;
+}
+
+.estados-enlaces ul{
+    border: 0.2em solid red;
+    padding-left: 0;
+}
+
+/*Estilos de listas*/
+.estados-enlaces ul li{
+    border: 0.1em solid blanchedalmond;
+    /*list-style-type (disc, decimal, circle, square, lower-roman, 
+    lower-aplha, upper-aplha, none)*/
+    list-style-type: lower-roman;
+    /*list-style-image: url('https://edube.org/uploads/media/default/0001/04/oedg_icon_regular.png')*/
+    /*(inside y outside*/
+    list-style-position: inside;
+    margin: 0.4rem;
+    padding: 0.3rem;
+    line-height: 1.5;
+}

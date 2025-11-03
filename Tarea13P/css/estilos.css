@@ -1,0 +1,39 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor--tabla{
+    border: 0.1em dashed pink;
+    padding: 0.2em;
+    overflow-x: scroll;
+}
+
+.tabla--alumnos{
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 30em;
+}
+
+.tabla--alumnos th, td{
+    border: 0.1em solid burlywood;
+    text-align: center;
+    padding: 0.2em;
+}
+
+.tabla--alumnos th{
+    background-color: pink;
+}
+
+.tabla--alumnos tr:hover{
+    background-color: rgb(253, 219, 224);
+}
+
+.tabla--alumnos tr:nth-child(even){
+    background-color: blanchedalmond;
+}

@@ -1,0 +1,65 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: linear-gradient(circle, rgb(229, 185, 128), rgb(231, 150, 43));
+    background-repeat: no-repeat;
+    /*Convertir contenedor en cuadricula*/
+}
+
+.contenedor-grid{
+    color: rgb(159, 124, 96);
+    border: 0.2em solid rgb(234, 151, 7);
+    display: grid;
+    width: 30em;
+    height: 30em;
+    background-color: rgb(223, 188, 142);
+    /*Se declaran las columnas (tamaño) de la cuadricula*/
+    /*Aceptan valores fijos, relativos, porcentajes, auto y se puede utilizar fr, 
+    para definir una fraccion del espacio disponible*/
+    grid-template-columns: 5em 5em 5em;
+    /*Se declaran los renglones o filas de las cuadriculas*/
+    /*Aceptan valores fijos, relativos, porcentajes, auto y se puede utilizar fr, 
+    para definir una fraccion del espacio disponible*/
+    grid-template-rows: 10em 10em;
+    /*Alinear items en la fila (eje en linea)(start, end, center, stretch)*/
+    justify-items: center;
+    /*Alinear items en la columna*/
+    align-items: center;
+    /*shorthand: place-items:stretch stretch*/
+    /*Alinear la cuadricula a lo largo del eje linea (fila)*/
+    /*(start, end, center, stretch, space-between, space-arownd y space-evenly)*/
+    justify-content: space-around;
+    /*Alinear la cuadricula a lo largo del eje bloque (columna)*/
+    /*(start, end, center, stretch, space-between, space-arownd y space-evenly)*/
+    align-content: center;
+    gap: 1em;
+}
+
+.objeto-grid{
+    background-color: rgb(248, 229, 188);
+    border: 0.2em dashed rgb(183, 144, 101);
+}
+
+.contenedor-grid1 {
+    color: rgb(159, 124, 96);
+    border: 0.2em solid rgb(234, 151, 7);
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto;
+}
+
+.objeto-grid1 {
+    background-color: rgb(248, 229, 188);
+    border: 0.2em dashed rgb(183, 144, 101);
+}
+
+.objeto-grid1:nth-child(2){
+    color: darksalmon;
+    grid-column: 1 / 2;
+    grid-row: 1;
+}

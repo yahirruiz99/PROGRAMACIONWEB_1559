@@ -97,3 +97,59 @@ h1 {
     text-align: center;
     height: 20em;
 }
+
+
+/* ----------------------------- */
+/* ----- PIE DE PÁGINA ----------*/
+/* ----------------------------- */
+
+#pie-pagina {
+    margin-top: 2em;
+    padding: 2em;
+    background-color: rgb(24, 24, 154);
+    color: white;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2em;
+
+    font-size: 1.4em;
+    border-top: 0.3em solid rgb(33, 33, 107);
+}
+
+#pie-pagina .contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .4em;
+}
+
+#pie-pagina .contacto p {
+    font-weight: bold;
+    margin: 0;
+    font-size: 1.5em;
+}
+
+#pie-pagina .contacto a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(70, 110, 200);
+    padding: 0.3em 0.8em;
+    border-radius: 0.5em;
+    transition: 0.2s;
+}
+
+#pie-pagina .contacto a:hover {
+    background-color: rgb(116, 146, 223);
+}
+
+#pie-pagina .derechos-autor p {
+    margin: 0.2em 0;
+}
+
+#pie-pagina .direccion {
+    margin-top: 0.5em;
+    opacity: 0.9;
+}

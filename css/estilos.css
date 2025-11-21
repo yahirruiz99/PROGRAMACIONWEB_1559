@@ -1,0 +1,155 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, rgb(191, 191, 231));
+}
+
+#encabezado {
+    border: 0.2em solid rgb(24, 24, 154);
+    display: grid;
+    grid-template-columns: 2fr 3fr 4fr;
+    justify-content: center;
+    align-items: center;
+}
+
+#encabezado img {
+    width: 60%;
+    height: 90%;
+    aspect-ratio: 1 / 1;
+    border-radius: 60%;
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+#navegacion {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    font-size: 1.5em;
+    gap:0.5em
+}
+
+#navegacion a{
+    text-decoration: none;
+    text-shadow: 0.2em 0.2em 0.2em 0.2em rgb(208, 208, 255);
+    font-size: 1.3em;
+    color: mintcream;
+    background-color: rgb(131, 176, 249);
+    border-radius: 20%;
+    text-align: center;
+}
+
+#contenedor-noticias{
+    border: 0.1em solid rgb(33, 33, 107);
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+}
+
+.noticias{
+    border: 0.1em solid rgb(44, 44, 110);
+    grid-column: 1 / 5;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.noticias h2 {
+    grid-column: 1 / 4;
+    text-align: center;
+    align-content: center;
+}
+
+.noticia {
+    border: 0.2em solid rgb(35, 35, 107);
+    box-shadow: 0.2em 0.2em 0.2em 0.2em cornflowerblue;
+    align-items: center;
+    text-align: center;
+}
+
+.noticias-urgentes {
+    border: 0.2em solid rgb(35, 35, 107);
+    grid-column: 5 / 7;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    height: 30em;
+    overflow-y: auto;
+}
+
+.noticias-urgentes h2 {
+    text-align: center;
+    align-content:  center;
+}
+
+.noticia-u {
+    border: 0.2em solid rgb(35, 35, 107);
+    box-shadow: 0.2em 0.2em 0.2em 0.2em cornflowerblue;
+    align-items: center;
+    text-align: center;
+    height: 20em;
+}
+
+
+/* ----------------------------- */
+/* ----- PIE DE PÁGINA ----------*/
+/* ----------------------------- */
+
+#pie-pagina {
+    margin-top: 2em;
+    padding: 2em;
+    background-color: rgb(24, 24, 154);
+    color: white;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2em;
+
+    font-size: 1.4em;
+    border-top: 0.3em solid rgb(33, 33, 107);
+}
+
+#pie-pagina .contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .4em;
+}
+
+#pie-pagina .contacto p {
+    font-weight: bold;
+    margin: 0;
+    font-size: 1.5em;
+}
+
+#pie-pagina .contacto a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(70, 110, 200);
+    padding: 0.3em 0.8em;
+    border-radius: 0.5em;
+    transition: 0.2s;
+}
+
+#pie-pagina .contacto a:hover {
+    background-color: rgb(116, 146, 223);
+}
+
+#pie-pagina .derechos-autor p {
+    margin: 0.2em 0;
+}
+
+#pie-pagina .direccion {
+    margin-top: 0.5em;
+    opacity: 0.9;
+}
